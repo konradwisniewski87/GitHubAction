@@ -28,6 +28,9 @@ def power(x, y):
 def nstr(x):
     return str(x)
 
+def pow(x, y):
+    return x**y
+
 
 ###########
 #  Testy  #
@@ -55,4 +58,7 @@ def test_div():
 
 def test_power():
     assert power(2, 2) == 4
+
+def test_pow():
+    assert pow(2, 2) == 4
 
