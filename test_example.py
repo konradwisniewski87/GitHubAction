@@ -31,6 +31,9 @@ def nstr(x):
 def pow(x, y):
     return x**y
 
+def mod(x, y):
+    return x % y
+
 
 ###########
 #  Testy  #
@@ -61,4 +64,7 @@ def test_power():
 
 def test_pow():
     assert pow(2, 2) == 4
+
+def test_mod():
+    assert mod(10, 4) == 2
 
